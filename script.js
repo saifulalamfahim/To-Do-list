@@ -26,9 +26,14 @@ btn.addEventListener('click', function(){
     toDoList.appendChild(newRow);
 
 
-    // exploring
+    // remove button
     removeBtn.addEventListener('click', function(){
         console.log("idea kaj kortase");
         newRow.style.display = "none";
+    });
+    // complete button
+    completeBtn.addEventListener('click', function(){
+        console.log("shob thik thak");
+        inputText.style.textDecoration = "line-through";
     })
 })
