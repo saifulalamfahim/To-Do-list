@@ -29,3 +29,6 @@
 .list h3{
       margin-right: 15px;
   }
+  .exploring{
+    display: none;
+  }

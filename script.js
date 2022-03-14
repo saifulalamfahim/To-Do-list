@@ -23,7 +23,12 @@ btn.addEventListener('click', function(){
     removeBtn.innerHTML = "Remove";
     newRow.appendChild(removeBtn);
 
-
-    
     toDoList.appendChild(newRow);
+
+
+    // exploring
+    removeBtn.addEventListener('click', function(){
+        console.log("idea kaj kortase");
+        newRow.style.display = "none";
+    })
 })
