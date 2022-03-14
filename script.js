@@ -7,7 +7,10 @@ const toDoList = document.querySelector(".list");
 
 btn.addEventListener('click', function(){
     console.log("kaj kore vai");
-// for div
+if (input.value == '') {
+    alert("vai kisu lekh age");
+}else{
+    // for div
     const newRow = document.createElement("div");
 // for h3
     const inputText = document.createElement("h3");
@@ -36,4 +39,5 @@ btn.addEventListener('click', function(){
         console.log("shob thik thak");
         inputText.style.textDecoration = "line-through";
     })
+}
 })
